@@ -15,6 +15,16 @@ This script will download the required files and run the model.
 
 Install them with `pip install spacy torch tqdm lxml`
 
+## With Virtual env
+If you use virtual env you can directly run these commands:
+```bash
+cd path/to/chiasmus-detector
+python3 -m venv chiasmus_env
+source chiasmus_env/bin/activate
+pip install -r requirements.txt
+bash run.sh
+```
+
 ## Citation
 
 If you use this implementation in your work, please cite:
